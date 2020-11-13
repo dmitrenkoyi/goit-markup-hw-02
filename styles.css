@@ -1,0 +1,53 @@
+:root {
+
+}
+
+
+body {
+color: #212121;
+}
+
+.logo span {
+    color: #2196F3;
+}
+
+.logo {
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*  site-nav */
+.site-nav .link {
+    color: #212121;
+}
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+h1 {
+    color: #ffffff;
+}
+.hero {
+    background: #2F303A;
+}
+
+/* кнопка-ссылка */
+.button {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+
+/* Наша команда */
+.command p {
+    color: #757575;
+}
+.command {
+    background-color: #F5F4FA;
+}
