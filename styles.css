@@ -1,19 +1,23 @@
 :root {
+--main-text-color: #212121;
 
 }
 
 
 body {
-color: #212121;
+color: var(--main-text-color);
 }
-
-.logo span {
-    color: #2196F3;
-}
-
-.logo {
+/* Лого верхнее */
+.header-logo {
     color: #000000;
 }
+.logo {
+    color: #2196F3;
+}
+main-nav a {
+    color: #000000;
+}
+
 
 ul {
     list-style: none;
@@ -45,9 +49,37 @@ h1 {
 
 
 /* Наша команда */
-.command p {
+.text {
     color: #757575;
 }
 .command {
     background-color: #F5F4FA;
+}
+
+
+/* Футер */
+
+.footer-address p {
+    color: #ffffff;
+}
+.footer-address a {
+    color: rgba(255, 255, 255, 60%);
+}
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+color: #ffffff;
+}
+
+/* Свойства для стр Портфолио */
+
+.button-potfolio {
+   color: var(--main-text-color);
+    background-color: #F5F4FA;
+}
+.button-potfolio:hover,
+ .button-potfolio:focus {
+  color: #ffffff; 
+  background-color: #2196F3; 
 }
