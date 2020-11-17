@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
@@ -30,56 +32,82 @@
 
     <main>
         <nav>
-            <ul class="site-nav">
-                <li><a href="" class="button-potfolio">Все</a></li>
-                <li><a href="" class="button-potfolio">Веб-сайты</a></li>
-                <li><a href="" class="button-potfolio">Приложения</a></li>
-                <li><a href="" class="button-potfolio">Дизайн</a></li>
-                <li><a href="" class="button-potfolio">Маркетинг</a></li>
+            <ul class="redio-button">
+                <li><button class="filtre" type="button">Все</button></li>
+                <li><button class="filtre" type="button">Веб-сайты</button> </li>
+                <li><button class="filtre" type="button">Приложения</button> </li>
+                <li><button class="filtre" type="button">Дизайн</button> </li>
+                <li><button class="filtre" type="button">Маркетинг</button> </li>
             </ul>
         </nav>
 
-        <nav>
+        <section>
+            <h1>Наши роботы</h1>
             <ul class="project">
-                <li><img src="./images/group1.jpg" alt="Веб-сайт">
-                    <h2>Технокряк</h2>
-                    <p class="text">Веб-сайт</p>
+                <li>
+                    <a href="">
+                        <img src="./images/group1.jpg" alt="Веб-сайт">
+                        <h2>Технокряк</h2>
+                        <p class="text category">Веб-сайт</p>
+                    </a>
                 </li>
-                <li><img src="" alt="">
-                    <img src="./images/group2.jpg" alt="Постер с баскетболистами">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p class="text">Дизайн</p>
+                <li><a href="">
+                        <img src="./images/group2.jpg" alt="Постер с баскетболистами">
+                        <h2>Постер New Orlean vs Golden Star</h2>
+                        <p class="text category">Дизайн</p>
+                    </a>
                 </li>
-                <li><img src="./images/group3.jpg" width="370" alt="Лого ресторана">
-                    <h2>Ресторан Seafood</h2>
-                    <p class="text">Приложение</p>
+                <li>
+                    <a href="">
+                        <img src="./images/group3.jpg" width="370" alt="Лого ресторана">
+                        <h2>Ресторан Seafood</h2>
+                        <p class="text category">Приложение</p>
+                    </a>
                 </li>
-                <li><img src="./images/group4.jpg" width="370" alt="Наушники">
-                    <h2>Проект Prime</h2>
-                    <p class="text">Маркетинг</p>
+                <li>
+                    <a href="">
+                        <img src="./images/group4.jpg" width="370" alt="Наушники">
+                        <h2>Проект Prime</h2>
+                        <p class="text category">Маркетинг</p>
+                    </a>
                 </li>
-                <li><img src="./images/group5.jpg" width="370" alt="Две коробки">
-                    <h2>Проект Boxes</h2>
-                    <p class="text">Приложение</p>
+                <li>
+                    <a href="">
+                        <img src="./images/group5.jpg" width="370" alt="Две коробки">
+                        <h2>Проект Boxes</h2>
+                        <p class="text category">Приложение</p>
+                    </a>
                 </li>
-                <li><img src="./images/group6.jpg" width="370" alt="Монитор">
-                    <h2>Inspiration has no Borders</h2>
-                    <p class="text">Веб-сайт</p>
+                <li>
+                    <a href="">
+                        <img src="./images/group6.jpg" width="370" alt="Монитор">
+                        <h2>Inspiration has no Borders</h2>
+                        <p class="text category">Веб-сайт</p>
+                    </a>
                 </li>
-                <li><img src="./images/group7.jpg" width="370" alt="Раскрытая книга">
-                    <h2>Издание Limited Edition</h2>
-                    <p class="text">Дизайн</p>
+                <li>
+                    <a href="">
+                        <img src="./images/group7.jpg" width="370" alt="Раскрытая книга">
+                        <h2>Издание Limited Edition</h2>
+                        <p class="text category">Дизайн</p>
+                    </a>
                 </li>
-                <li><img src="./images/group8.jpg" width="370" alt="Лейбл">
-                    <h2>Проект LAB</h2>
-                    <p class="text">Маркетинг</p>
+                <li>
+                    <a href="">
+                        <img src="./images/group8.jpg" width="370" alt="Лейбл">
+                        <h2>Проект LAB</h2>
+                        <p class="text category">Маркетинг</p>
+                    </a>
                 </li>
-                <li><img src="./images/group9.jpg" width="370" alt="Ноутбук">
-                    <h2>Growing Business</h2>
-                    <p class="text">Приложение</p>
+                <li>
+                    <a href="">
+                        <img src="./images/group9.jpg" width="370" alt="Ноутбук">
+                        <h2>Growing Business</h2>
+                        <p class="text category">Приложение</p>
+                    </a>
                 </li>
             </ul>
-        </nav>
+        </section>
     </main>
 
     <!--  Футер  -->
@@ -88,7 +116,7 @@
         <address class="footer-address">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380991111111">+38 096 111 11 11</a>
 
         </address>
     </footer>
