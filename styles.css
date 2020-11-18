@@ -3,12 +3,12 @@
 --text-p-color:  #757575;
 --buttom-main-blue: #2196F3;
 --buttom-grey: #F5F4FA;
+--white-minor: #ffffff;
 }
 
 
 body {
 color: var(--main-text-color);
-
 font-family: Roboto, sans-serif;
 letter-spacing: 0.03em;
 }
@@ -45,18 +45,27 @@ a {
 /*  site-nav */
 .site-nav .link {
     color: var(--main-text-color);
-  font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
+
+.contacts .link{
+    color: var(--text-p-color);
+   }
+
+.site-nav .link.current{
+    color: var(--buttom-main-blue);
+}
+
 .link:hover,
 .link:focus {
     color: var(--buttom-main-blue);
 }
 
 h1 {
-    color: #ffffff;
+    color:var(--white-minor);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -70,7 +79,7 @@ text-transform: uppercase;
 
 /* кнопка-ссылка */
 .button {
-    color: #ffffff;
+    color:var(--white-minor);
     background-color:var(--buttom-main-blue);
 font-weight: 700;
 font-size: 16px;
@@ -118,7 +127,7 @@ line-height: 1.18px;
 /* Футер */
 
 .footer-address p {
-    color: #ffffff;
+    color: var(--white-minor);
 }
 .footer-address a {
     color: rgba(255, 255, 255, 60%);
@@ -127,7 +136,7 @@ line-height: 1.18px;
     background-color: #2F303A;
 }
 .footer-logo {
-color: #ffffff;
+color: var(--white-minor);
 font-family: Raleway, sans-serif;
 }
 
@@ -140,10 +149,11 @@ font-family: Raleway, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    font-family: Roboto, sans-serif;
 }
 .filtre:hover,
  .filtre:focus {
-  color: #ffffff; 
+  color: var(--white-minor); 
   background-color: var(--buttom-main-blue);
 }
 
